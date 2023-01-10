@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b194727d-7d27-423a-89a0-d143135637f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson1/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson1/CreditCardBlockingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson1/CreditCardDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson1/CreditCardInformationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson1/L1_Variables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson1/SimpleCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson1/SimpleCalculatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson1_Homework/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson1_Homework/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson1_Homework/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson1_Homework/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson1_Homework/Task5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorld.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
