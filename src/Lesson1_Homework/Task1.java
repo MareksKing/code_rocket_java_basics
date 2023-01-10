@@ -10,11 +10,11 @@ public class Task1 {
         System.out.print("Ievadiet collu daudzumu: ");
         Scanner input = new Scanner(System.in);
         int inches = input.nextInt();
+        input.close();
 
         System.out.println("Inches: " + inches);
         double meters = inches * 0.0254;
         System.out.println("Meters : " + meters);
-
 
     }
 }

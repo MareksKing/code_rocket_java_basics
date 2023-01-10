@@ -10,6 +10,7 @@ public class Task2 {
         System.out.print("Ievadiet skaitli: ");
         Scanner input = new Scanner(System.in);
         int number = input.nextInt();
+        input.close();
         if(number < 0 || number > 1000){
             throw new Exception("Skaitlis pārāk liels, skaitlim jābūt 0 < x < 1000");
         }

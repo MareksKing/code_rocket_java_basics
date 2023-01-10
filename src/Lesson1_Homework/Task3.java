@@ -7,6 +7,7 @@ public class Task3 {
         System.out.print("Ievadiet minutes: ");
         Scanner input = new Scanner(System.in);
         int time = input.nextInt();
+        input.close();
         int days = time/1440;
         int years = 0;
         while(days > 365){
