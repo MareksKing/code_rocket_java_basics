@@ -12,7 +12,7 @@ public class Task5 {
         double heightInches = input.nextDouble();
         input.close();
         
-        double BMI_Index = (weightPounds / (heightInches * heightInches)) * 703;
+        double BMI_Index = (weightPounds / Math.pow(heightInches, 2)) * 703;
         System.out.println(BMI_Index);
     }
 }
