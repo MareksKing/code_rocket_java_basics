@@ -1,4 +1,4 @@
-package Rectangle;
+package Lesson2_Homework.Rectangle;
 
 
 public class RectangleDemo {

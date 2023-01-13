@@ -1,4 +1,4 @@
-package School;
+package Lesson2_Homework.School;
 
 public class SchoolDemo {
     

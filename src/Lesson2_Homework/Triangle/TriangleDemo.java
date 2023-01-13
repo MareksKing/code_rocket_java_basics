@@ -1,4 +1,4 @@
-package Triangle;
+package Lesson2_Homework.Triangle;
 
 public class TriangleDemo {
     

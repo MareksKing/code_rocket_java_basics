@@ -5,16 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b194727d-7d27-423a-89a0-d143135637f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lesson2/BankAccount/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson2/BankAccount/BankAccountDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson2/BankAccount/BankAccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson2/SimpleCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson2/SimpleCalculatorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson2/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson2/UserCreationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson2/UserInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson2_Homework/Average/Average.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson2_Homework/Average/AverageDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson2_Homework/Complex/Complex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson2_Homework/Complex/ComplexDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson2_Homework/Employee/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson2_Homework/Employee/EmployeeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson2_Homework/Employee/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson2_Homework/Matrix/Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson2_Homework/Matrix/MatrixDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson2_Homework/Rectangle/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2_Homework/Rectangle/Area.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson2_Homework/Rectangle/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2_Homework/Rectangle/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson2_Homework/Rectangle/RectangleDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2_Homework/Rectangle/RectangleDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson2_Homework/School/SchoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2_Homework/School/SchoolDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson2_Homework/School/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2_Homework/School/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson2_Homework/Triangle/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2_Homework/Triangle/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson2_Homework/Triangle/TriangleDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2_Homework/Triangle/TriangleDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
