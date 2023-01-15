@@ -21,13 +21,13 @@ public class NameAbrevation {
             name = names[0];
             lastName = names[names.length-1];
             System.out.println("Your name is: " + name + " " + lastName);
-            System.out.println("Your abbrevation is: " + name.charAt(0) + "." + lastName);
+            System.out.println("Your abbrevation is: " + name.toUpperCase().charAt(0) + "." + lastName);
         } else if(names.length >= 3){
             name = names[0];
             middleName = names[1];
             lastName = names[names.length-1];
             System.out.println("Your name is: " + name + " " + middleName + " " + lastName);
-            System.out.println("Your abbrevation is: " + name.charAt(0) + "." + middleName.charAt(0) + "." + lastName);
+            System.out.println("Your abbrevation is: " + name.toUpperCase().charAt(0) + "." + middleName.toUpperCase().charAt(0) + "." + lastName);
         }
 
         
