@@ -16,6 +16,7 @@ public class Complex {
         this.realNumber = input.nextDouble();
         System.out.print("Input the imaginary number of the Complex number: ");
         this.imaginaryNumber = input.nextDouble();
+        input.close();
     }
 
     public Complex calculateSum(Complex firstNumber, Complex secondNumber){

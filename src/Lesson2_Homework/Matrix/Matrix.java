@@ -1,8 +1,5 @@
 package Lesson2_Homework.Matrix;
 
-import java.util.Arrays;
-import java.util.Scanner;
-
 public class Matrix {
 
     int rows;

@@ -7,6 +7,7 @@ public class Task9 {
         Scanner input = new Scanner(System.in);
         System.out.print("Input a number to be split into digits: ");
         int number = input.nextInt();
+        input.close();
 
         if(number < 0){ throw new Exception("Number must be non-negative");}
 

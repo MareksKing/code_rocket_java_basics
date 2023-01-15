@@ -26,6 +26,7 @@ public class Area {
         double sideB = input.nextDouble();
         this.sideA = sideA;
         this.sideB = sideB;
+        input.close();
     }
 
      public double getArea(){
@@ -40,6 +41,7 @@ public class Area {
         double sideB = input.nextDouble();
         area = sideA * sideB;
         System.out.println("Rectangle of dimensions: " + sideA + " x " + sideB + " has an area of: " + area);
+        input.close();
         return area;
      }
 

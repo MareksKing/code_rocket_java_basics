@@ -14,6 +14,7 @@ public class Average {
             System.out.print("Digit nr." + i + ": ");
             digits[i] = input.nextDouble();
         }
+        input.close();
     }
 
     public double calculateAverage(){

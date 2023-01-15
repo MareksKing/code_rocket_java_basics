@@ -1,6 +1,5 @@
 package Lesson1;
 
-import java.sql.SQLOutput;
 import java.util.Date;
 
 public class CreditCardDemo {

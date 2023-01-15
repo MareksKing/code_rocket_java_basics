@@ -10,8 +10,11 @@ public class MatrixService {
                 Scanner input = new Scanner(System.in);
                 System.out.print("Matrix value at: " + i + "; " + j + ": ");
                 matrix.matrixArray[i][j] = input.nextInt();
+                input.close();
             }
+            
         }
+        
     }
 
     public void insertValue(Matrix matrix, int row, int column, int value) {
