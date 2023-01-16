@@ -13,24 +13,31 @@ public class PalindromeReplace {
 
 
         for (String word : words) {
-            for (int i = 0; i < word.length(); i++) {
-                if(word.charAt(i) != word.charAt(word.length()-(i+1))){
-                    System.out.println(word + " is not a palindrome");
 
-                    break;
+            if(isPalindrome(word)){
+                for (int i = 0; i < word.length(); i++) {
+                    word = word.replace(word.charAt(i), '*');
                 }
-                if(word.length() == 1){
-                    System.out.println(word + " is not a palindrome");
-
-                    break;
-                }
-
-                word.replace(word.charAt(i), '*');
-
 
             }
+
+            System.out.print(word + " ");
+
+
         }
 
 
+    }
+
+    public static boolean isPalindrome(String word){
+        for (int i = 0; i < word.length(); i++) {
+            if(word.charAt(i) != word.charAt(word.length()-(i+1))){
+                return false;
+            }
+        }
+        if(word.length() == 1){
+            return false;
+        }
+        return true;
     }
 }
