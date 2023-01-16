@@ -16,7 +16,7 @@ public class NameAbrevation {
         input.close();
         
         String[] names = nameInput.split("\\s+");
-        System.out.println(names.length);
+
         if(names.length == 2){
             name = names[0];
             lastName = names[names.length-1];
