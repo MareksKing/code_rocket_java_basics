@@ -5,24 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b194727d-7d27-423a-89a0-d143135637f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lesson2_Homework/Matrix/Task37.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson2_Homework/Numbers/leapYear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson2_Homework/String/validPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson2_Homework/Task39.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson2_Homework/Task40.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson2_Homework/Task41.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson2_Homework/Task42.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson2_Homework/Task43.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson2_Homework/Task44.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson2_Homework/Task45.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson2_Homework/Task46.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson2_Homework/Task47.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson2_Homework/Task48.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson2_Homework/Triangle/Task38.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson3_Homework/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson3_Homework/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson3_Homework/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson3_Homework/Task4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson2_Homework/Matrix/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2_Homework/Matrix/Matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson2_Homework/Matrix/MatrixDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2_Homework/Matrix/MatrixDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson2_Homework/Matrix/MatrixService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2_Homework/Matrix/MatrixService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
