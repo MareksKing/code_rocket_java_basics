@@ -1,5 +1,7 @@
 package Lesson2_Homework.Matrix;
 
+import java.lang.reflect.Type;
+
 public class Matrix {
 
     int rows;
@@ -12,6 +14,12 @@ public class Matrix {
         this.matrixArray = new int[rows][columns];
     }
 
+
+    public Matrix(int rows) {
+        this.rows = rows;
+        this.columns = rows;
+        this.matrixArray = new int[rows][rows];
+    }
 
     public Matrix() {
     }

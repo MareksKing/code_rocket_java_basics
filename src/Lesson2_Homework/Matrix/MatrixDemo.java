@@ -17,6 +17,8 @@ public class MatrixDemo {
         System.out.println(matrixService.printMatrix(newMatrix)); 
         newMatrix = matrixService.multiplyMatrix(firstMatrix, secondMatrix);
         System.out.println(matrixService.printMatrix(newMatrix));
-    
+
+
+
     }
 }

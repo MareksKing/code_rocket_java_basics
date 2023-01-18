@@ -1,5 +1,6 @@
 package Lesson2_Homework.Matrix;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class MatrixService {
@@ -32,6 +33,15 @@ public class MatrixService {
             outputString += " ]\n";
         }
         return outputString;
+    }
+
+    public void insertRandomValues(Matrix matrix){
+        Random random = new Random();
+        for (int row = 0; row < matrix.matrixArray.length; row++) {
+            for (int columns = 0; columns < matrix.matrixArray.length; columns++) {
+                matrix.matrixArray[row][columns] = random.nextInt(2);
+            }
+        }
     }
 
     public Matrix additionMatrix(Matrix firstMatrix, Matrix secondMatrix){
