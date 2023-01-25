@@ -1,4 +1,4 @@
-package lesson2.bankaccount2;
+package Lesson2.bankaccount2;
 
 import java.math.BigDecimal;
 
