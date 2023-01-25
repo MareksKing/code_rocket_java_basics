@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
@@ -27,3 +28,46 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+=======
+# Add any directories, files, or patterns you don't want to be tracked by version control
+## Log files
+.log
+*.log
+
+## Gradle cache and binaries
+.gradle/
+build/
+dist/
+target/
+
+## JetBrains IDEs: IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+**/out/production
+**/out/test
+**/out/itest
+
+## Eclipse project files
+.classpath
+.project
+.settings/
+bin/
+
+## Ansible version file
+**/ansible/version.yml
+**/ansible/*.retry
+
+## Generated files
+.checkstyle
+*.*~
+*.retry
+.allure/
+generated/
+classes/
+~/
+
+## Temp folders
+*@tmp
+>>>>>>> 9488627260ae8fb4c4a8a78ce2fc60aa007993bf
