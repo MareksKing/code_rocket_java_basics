@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b194727d-7d27-423a-89a0-d143135637f6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson1/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson1/CreditCard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson1/CreditCardBlockingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson1/CreditCardBlockingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson1/CreditCardDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson1/CreditCardDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson1/CreditCardInformationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson1/CreditCardInformationService.java" afterDir="false" />
@@ -20,7 +19,6 @@
       <change beforePath="$PROJECT_DIR$/src/Lesson2/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson2/UserCreationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/UserCreationDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson2/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/UserInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson2/bankaccount2/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/bankaccount2/BankAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
