@@ -45,14 +45,14 @@ public class ArrayListDemo {
 //        System.out.println(colors);
 
         //Task9
-        ArrayList<String> newArray = new ArrayList<>();
-        newArray.add("test");
-        newArray.add("test");
-        newArray.add("test");
-        newArray.add("test");
-        arrayUtils.copyArray(colors, newArray);
-        System.out.println(newArray);
-        System.out.println(colors);
+//        ArrayList<String> newArray = new ArrayList<>();
+//        newArray.add("test");
+//        newArray.add("test");
+//        newArray.add("test");
+//        newArray.add("test");
+//        arrayUtils.copyArray(colors, newArray);
+//        System.out.println(newArray);
+//        System.out.println(colors);
 
         //Task10
 //        arrayUtils.shuffleArray(colors);

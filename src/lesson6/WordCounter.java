@@ -7,9 +7,16 @@ import java.util.Map;
 
 public class WordCounter {
 
-    public List<String> splitIntoWords(String text) {
-        String correctedText = text.replaceAll("[^a-zA-Z]", " ");
+    public List<String> splitIntoWords(String text){
+
+
+
+        String correctedText = text.replaceAll("[^A-Za-z0-9]+", " ");
+        correctedText = correctedText.strip();
         String[] words = correctedText.split("\\s+");
+        if(correctedText.isEmpty()){
+            return List.of();
+        }
         return Arrays.asList(words);
     }
 

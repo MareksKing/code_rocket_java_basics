@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b194727d-7d27-423a-89a0-d143135637f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lesson6/WordCounterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson1/CreditCardBlockingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson1/CreditCardBlockingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson1/CreditCardDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson1/CreditCardDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson1/CreditCardInformationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson1/CreditCardInformationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson1/SimpleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson1/SimpleCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson1/SimpleCalculatorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson1/SimpleCalculatorDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson2/BankAccount/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/BankAccount/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson2/BankAccount/BankAccountDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/BankAccount/BankAccountDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson2/BankAccount/BankAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/BankAccount/BankAccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson2/SimpleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/SimpleCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson2/SimpleCalculatorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/SimpleCalculatorDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson2/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson2/UserCreationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/UserCreationDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson2/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/UserInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson5_Homework/ArrayListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson5_Homework/ArrayListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson6/WordCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson6/WordCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson6/WordCounterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson6/WordCounterDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +67,16 @@
           <url>file://$PROJECT_DIR$/src/Lesson2_Homework/Task41.java</url>
           <line>23</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lesson6/WordCounterTest.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lesson6/WordCounterTest.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

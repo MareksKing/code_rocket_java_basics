@@ -5,8 +5,9 @@ import java.util.Map;
 
 public class WordCounterDemo {
 
-    public static void main(String[] args) {
-        String text = "text. text, text,, a. c. b, a,a,b";
+    public static void main(String[] args) throws Exception {
+     //   String text = "text. text, text,, a. c. b, a,a,b";
+        String text ="   Hello, sss,";
 
         WordCounter wordCounter = new WordCounter();
         List<String> words = wordCounter.splitIntoWords(text);
