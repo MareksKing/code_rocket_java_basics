@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b194727d-7d27-423a-89a0-d143135637f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lesson6_Homework/HashMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson6_Homework/TreeMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson7/Homework/Celsius.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson7/Homework/Fahrenheit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson7/Homework/Kelvin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson7/Homework/TemperatureConverterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson7/Homework/UserInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson7/Homework/toCelsius.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson7/Homework/toFahrenheit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson7/Homework/toKelvin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
