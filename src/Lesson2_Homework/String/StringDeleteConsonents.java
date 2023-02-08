@@ -1,6 +1,5 @@
 package Lesson2_Homework.String;
 
-import java.util.Arrays;
 
 public class StringDeleteConsonents {
     
