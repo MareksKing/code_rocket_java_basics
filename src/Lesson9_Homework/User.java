@@ -2,11 +2,13 @@ package Lesson9_Homework;
 
 import java.util.ArrayList;
 
+import Lesson9_Homework.Shapes.Shape;
+
 public class User {
 
-    private ArrayList<Shapes> storedShapes = new ArrayList<>();
+    private ArrayList<Shape> storedShapes = new ArrayList<>();
 
-    public ArrayList<Shapes> getStoredShapes() {
+    public ArrayList<Shape> getStoredShapes() {
         return storedShapes;
     }
 
