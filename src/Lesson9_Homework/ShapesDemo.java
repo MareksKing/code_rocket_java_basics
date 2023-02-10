@@ -11,7 +11,13 @@ public class ShapesDemo {
     public static void main(String[] args) {
 
         UserInput userInput = new UserInput();
-        ShapeSelectionMenuAction shapeSelectionMenuAction = new ShapeSelectionMenuAction();
+
+        List<String> shapes = List.of(
+                "Circle",
+                "Triange",
+                "Square"
+        );
+        ShapeSelectionMenuAction shapeSelectionMenuAction = new ShapeSelectionMenuAction(userInput, shapes);
 
 
         List<MenuAction> actions = List.of(

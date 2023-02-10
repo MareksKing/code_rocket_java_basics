@@ -17,7 +17,7 @@ public class UserMenu {
     public void startMenu() {
         while (true) {
             printOutMenu();
-            int number = userInput.getChoice();
+            int number = userInput.getNumber()-1;
             if (number >= 0 && number < actions.size()) {
                 actions.get(number).execute();
             } else {
@@ -29,7 +29,7 @@ public class UserMenu {
     private void printOutMenu() {
         for (int i = 0; i < actions.size(); i++) {
             String menuActionName = actions.get(i).getName();
-            System.out.println(i + ". " + menuActionName);
+            System.out.println(i+1 + ". " + menuActionName);
         }
     }
 }

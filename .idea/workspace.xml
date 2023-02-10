@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b194727d-7d27-423a-89a0-d143135637f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lesson9_Homework/MenuAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson9_Homework/ShapeChoiceMenuAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson9_Homework/Shapes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson9_Homework/ShapesDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson9_Homework/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson9_Homework/UserInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson9_Homework/UserMenu.java" afterDir="false" />
+    <list default="true" id="b194727d-7d27-423a-89a0-d143135637f6" name="Changes" comment="Started homework">
+      <change afterPath="$PROJECT_DIR$/src/Lesson9_Homework/Actions/ShapeCreationAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson9_Homework/Actions/ShapeSelectionMenuAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson9_Homework/Actions/ShapeSelectionMenuAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson9_Homework/Shapes/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson9_Homework/Shapes/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson9_Homework/Shapes/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson9_Homework/Shapes/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson9_Homework/Shapes/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson9_Homework/Shapes/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson9_Homework/Shapes/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson9_Homework/Shapes/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson9_Homework/ShapesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson9_Homework/ShapesDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson9_Homework/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson9_Homework/UserInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson9_Homework/UserMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson9_Homework/UserMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +69,19 @@
       <option name="presentableId" value="Default" />
       <updated>1673250918413</updated>
     </task>
+    <task id="LOCAL-00001" summary="Started homework">
+      <created>1675852929163</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675852929163</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Started homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started homework" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
