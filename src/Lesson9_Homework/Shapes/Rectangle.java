@@ -1,6 +1,6 @@
 package Lesson9_Homework.Shapes;
 
-public class Square extends Shape {
+public class Rectangle extends Shape {
 
     private Double side1,side2;
 
@@ -20,7 +20,7 @@ public class Square extends Shape {
         this.side2 = side2;
     }
 
-    public Square(Double side1, Double side2) {
+    public Rectangle(Double side1, Double side2) {
         this.side1 = side1;
         this.side2 = side2;
     }
@@ -28,7 +28,7 @@ public class Square extends Shape {
 
     @Override
     public String toString() {
-        return "Square{" +
+        return "Rectangle{" +
                 "side1=" + side1 +
                 ", side2=" + side2 +
                 '}';
@@ -36,14 +36,12 @@ public class Square extends Shape {
 
     @Override
     public Double calculatePerimeter() {
-        // TODO Auto-generated method stub
-        return null;
+        return 2*(side1+side2);
     }
 
     @Override
     public Double calculateArea() {
-        // TODO Auto-generated method stub
-        return null;
+        return side1*side2;
     }
     
 }

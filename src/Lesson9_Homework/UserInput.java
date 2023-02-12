@@ -1,6 +1,5 @@
 package Lesson9_Homework;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 import Lesson9_Homework.Shapes.*;
@@ -26,7 +25,7 @@ public class UserInput {
             case 2:
                 return createTriangle();
             case 3:
-                return createSquare();
+                return createRectangle();
             case 4:
                 break;
 
@@ -34,13 +33,13 @@ public class UserInput {
         return null;
     }
 
-    private Square createSquare() {
+    private Rectangle createRectangle() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Input length of side A: ");
         Double sideA = scanner.nextDouble();
         System.out.print("Input length of side B: ");
         Double sideB = scanner.nextDouble();
-        return new Square(sideA, sideB);
+        return new Rectangle(sideA, sideB);
     }
 
     private Triangle createTriangle() {

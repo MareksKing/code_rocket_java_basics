@@ -4,24 +4,33 @@ package Lesson9_Homework;
 import java.util.List;
 
 import Lesson9_Homework.Actions.ExitMenuAction;
-import Lesson9_Homework.Actions.ShapeSelectionMenuAction;
+import Lesson9_Homework.Actions.InputShapeParametersMenuAction;
+import Lesson9_Homework.Actions.ListShapesMenuAction;
+import Lesson9_Homework.Shapes.ShapeRepository;
+import Lesson9_Homework.Shapes.ShapeService;
 import Lesson9_Homework.Actions.AddShapeMenuAction;
+import Lesson9_Homework.Actions.CalculateAreaMenuAction;
+import Lesson9_Homework.Actions.CalculatePerimeterMenuAction;
 
 public class ShapesDemo {
     public static void main(String[] args) {
 
         UserInput userInput = new UserInput();
+        ShapeRepository shapeRepository = new ShapeRepository();
+        ShapeService shapeService = new ShapeService(shapeRepository);
+        InputShapeParametersMenuAction inputParameters=  new InputShapeParametersMenuAction(userInput, shapeService);
 
         List<String> shapes = List.of(
                 "Circle",
                 "Triange",
-                "Square"
+                "Rectangle"
         );
-        ShapeSelectionMenuAction shapeSelectionMenuAction = new ShapeSelectionMenuAction(userInput, shapes);
-
 
         List<MenuAction> actions = List.of(
-                new AddShapeMenuAction(userInput, shapeSelectionMenuAction),
+                new AddShapeMenuAction(userInput, shapes, shapeService, inputParameters),
+                new ListShapesMenuAction(shapeService),
+                new CalculatePerimeterMenuAction(shapeService),
+                new CalculateAreaMenuAction(shapeService),
                 new ExitMenuAction()
                 );
 

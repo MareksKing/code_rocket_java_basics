@@ -3,6 +3,7 @@ package Lesson9_Homework.Shapes;
 public class Triangle extends Shape{
 
     private Double side1,side2;
+    private Double hypotenuse;
 
     public Double getSide1() {
         return side1;
@@ -23,6 +24,7 @@ public class Triangle extends Shape{
     public Triangle(Double side1, Double side2) {
         this.side1 = side1;
         this.side2 = side2;
+        this.hypotenuse = Math.sqrt(Math.pow(side1, 2) + Math.pow(side2, 2));
     }
 
     @Override
@@ -35,14 +37,12 @@ public class Triangle extends Shape{
 
     @Override
     public Double calculatePerimeter() {
-        // TODO Auto-generated method stub
-        return null;
+        return side1+side2+hypotenuse;
     }
 
     @Override
     public Double calculateArea() {
-        // TODO Auto-generated method stub
-        return null;
+        return (side1 *side2)/2;
     }
     
 }
