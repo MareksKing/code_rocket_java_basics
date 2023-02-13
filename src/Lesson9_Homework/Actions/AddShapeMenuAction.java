@@ -25,7 +25,7 @@ public class AddShapeMenuAction implements MenuAction{
 
     @Override
     public String getName() {
-        return "Choose shape";
+        return "Create shape";
     }
 
     @Override

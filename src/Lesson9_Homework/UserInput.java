@@ -7,7 +7,7 @@ import Lesson9_Homework.Shapes.*;
 public class UserInput {
 
     public Integer getNumber(){
-        System.out.print("Please enter menu number: ");
+        System.out.print("Please enter an option number: ");
         Scanner scanner = new Scanner(System.in);
         return scanner.nextInt();
     }

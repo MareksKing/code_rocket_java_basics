@@ -20,8 +20,8 @@ public class ListShapesMenuAction implements MenuAction{
 
     @Override
     public void execute() {
-        System.out.println(shapeService.listShapes());    
-    
+
+        shapeService.listShapes().forEach(shape -> System.out.println(shape));
         
     }
     

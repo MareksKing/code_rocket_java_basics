@@ -5,6 +5,9 @@ public class Triangle extends Shape{
     private Double side1,side2;
     private Double hypotenuse;
 
+    private Double perimeter = 0.00;
+    private Double area = 0.00;
+
     public Double getSide1() {
         return side1;
     }
@@ -21,6 +24,17 @@ public class Triangle extends Shape{
         this.side2 = side2;
     }
 
+    @Override
+    public String toString() {
+        return "Triangle{" +
+                "side1=" + side1 +
+                ", side2=" + side2 +
+                ", hypotenuse=" + hypotenuse +
+                ", perimeter=" + perimeter +
+                ", area=" + area +
+                '}';
+    }
+
     public Triangle(Double side1, Double side2) {
         this.side1 = side1;
         this.side2 = side2;
@@ -28,21 +42,18 @@ public class Triangle extends Shape{
     }
 
     @Override
-    public String toString() {
-        return "Triangle{" +
-                "side1=" + side1 +
-                ", side2=" + side2 +
-                '}';
-    }
-
-    @Override
     public Double calculatePerimeter() {
-        return side1+side2+hypotenuse;
+        Double perimeter = side1+side2+hypotenuse;
+        this.perimeter = perimeter;
+        return perimeter;
+
     }
 
     @Override
     public Double calculateArea() {
-        return (side1 *side2)/2;
+        Double area = (side1 *side2)/2;
+        this.area = area;
+        return area;
     }
     
 }

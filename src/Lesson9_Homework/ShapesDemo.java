@@ -3,14 +3,9 @@ package Lesson9_Homework;
 
 import java.util.List;
 
-import Lesson9_Homework.Actions.ExitMenuAction;
-import Lesson9_Homework.Actions.InputShapeParametersMenuAction;
-import Lesson9_Homework.Actions.ListShapesMenuAction;
+import Lesson9_Homework.Actions.*;
 import Lesson9_Homework.Shapes.ShapeRepository;
 import Lesson9_Homework.Shapes.ShapeService;
-import Lesson9_Homework.Actions.AddShapeMenuAction;
-import Lesson9_Homework.Actions.CalculateAreaMenuAction;
-import Lesson9_Homework.Actions.CalculatePerimeterMenuAction;
 
 public class ShapesDemo {
     public static void main(String[] args) {
@@ -29,6 +24,7 @@ public class ShapesDemo {
         List<MenuAction> actions = List.of(
                 new AddShapeMenuAction(userInput, shapes, shapeService, inputParameters),
                 new ListShapesMenuAction(shapeService),
+                new ChooseOneShapeMenuAction(shapeService, userInput),
                 new CalculatePerimeterMenuAction(shapeService),
                 new CalculateAreaMenuAction(shapeService),
                 new ExitMenuAction()

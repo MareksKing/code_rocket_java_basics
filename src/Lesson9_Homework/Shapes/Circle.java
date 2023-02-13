@@ -4,6 +4,18 @@ public class Circle extends Shape{
 
     private Double radius;
     private final Double pi = 3.14;
+    private Double perimeter = 0.00;
+
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "radius=" + radius +
+                ", perimeter=" + perimeter +
+                ", area=" + area +
+                '}';
+    }
+
+    private Double area = 0.00;
 
     public Double getRadius() {
         return radius;
@@ -23,21 +35,18 @@ public class Circle extends Shape{
 
 
     @Override
-    public String toString() {
-        return "Circle{" +
-                "radius=" + radius +
-                ", pi=" + pi +
-                '}';
-    }
-
-    @Override
     public Double calculatePerimeter() {
-        return (2*pi)*radius;
+        Double perimeter = (2*pi)*radius;
+        this.perimeter = perimeter;
+        return perimeter;
+
     }
 
     @Override
     public Double calculateArea() {
-        return pi*Math.pow(radius, 2);
+        Double area = pi*Math.pow(radius, 2);
+        this.area = area;
+        return area;
     }
     
 }

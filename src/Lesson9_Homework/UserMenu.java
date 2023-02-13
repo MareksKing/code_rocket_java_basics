@@ -1,6 +1,7 @@
 package Lesson9_Homework;
 
 
+import java.util.InputMismatchException;
 import java.util.List;
 
 public class UserMenu {
@@ -17,11 +18,15 @@ public class UserMenu {
     public void startMenu() {
         while (true) {
             printOutMenu();
-            int number = userInput.getNumber()-1;
-            if (number >= 0 && number < actions.size()) {
-                actions.get(number).execute();
-            } else {
-                System.out.println("Sorry, please try again!");
+            try{
+                int number = userInput.getNumber()-1;
+                if (number >= 0 && number < actions.size()) {
+                    actions.get(number).execute();
+                } else {
+                    System.out.println("Sorry, please try again!");
+                }
+            }catch (InputMismatchException e){
+                System.err.println("Please enter an option number");
             }
         }
     }
