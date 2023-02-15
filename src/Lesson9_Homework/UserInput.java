@@ -9,7 +9,7 @@ public class UserInput {
     public Integer getNumber(){
         System.out.print("Please enter an option number: ");
         Scanner scanner = new Scanner(System.in);
-        return scanner.nextInt();
+        return scanner.nextInt()-1;
     }
 
     public Integer getShapeChoice(){

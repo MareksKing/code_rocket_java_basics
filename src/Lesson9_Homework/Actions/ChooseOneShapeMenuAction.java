@@ -13,6 +13,7 @@ public class ChooseOneShapeMenuAction implements MenuAction {
     private final ShapeService shapeService;
     private final UserInput userInput;
 
+
     public ChooseOneShapeMenuAction(ShapeService shapeService, UserInput userInput) {
         this.shapeService = shapeService;
         this.userInput = userInput;
@@ -33,15 +34,17 @@ public class ChooseOneShapeMenuAction implements MenuAction {
         }
 
         try{
-            Integer shapeChoice = userInput.getNumber()-1;
+            Integer shapeChoice = userInput.getNumber();
             Shape shape = shapeService.getShapeById(shapeChoice);
             System.out.println("Selected: " + shape);
 
+            SelectedShapeMenuAction selectedShape = new SelectedShapeMenuAction(userInput, shape);
+            selectedShape.execute();
 
         }catch (InputMismatchException e){
             System.err.println("That is not a valid option");
-        }catch (EntityNotFoundException e){
-            System.err.println("A shape with this ID doesn't exist" );
+        }catch (EntityNotFoundException ex){
+            System.err.println("Entity not found");
         }
 
     }

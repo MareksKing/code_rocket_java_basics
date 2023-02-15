@@ -17,18 +17,6 @@ public class Circle extends Shape{
 
     private Double area = 0.00;
 
-    public Double getRadius() {
-        return radius;
-    }
-
-    public void setRadius(Double radius) {
-        this.radius = radius;
-    }
-
-    public Double getPi() {
-        return pi;
-    }
-
     public Circle(Double radius) {
         this.radius = radius;
     }

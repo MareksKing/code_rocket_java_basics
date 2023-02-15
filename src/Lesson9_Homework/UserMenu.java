@@ -19,7 +19,7 @@ public class UserMenu {
         while (true) {
             printOutMenu();
             try{
-                int number = userInput.getNumber()-1;
+                int number = userInput.getNumber();
                 if (number >= 0 && number < actions.size()) {
                     actions.get(number).execute();
                 } else {
