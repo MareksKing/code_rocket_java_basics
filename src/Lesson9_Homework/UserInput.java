@@ -39,15 +39,22 @@ public class UserInput {
         Double sideA = scanner.nextDouble();
         System.out.print("Input length of side B: ");
         Double sideB = scanner.nextDouble();
+        if(sideA < 1 || sideB < 1){
+            throw new IllegalArgumentException("Only positive numbers");
+        }
         return new Rectangle(sideA, sideB);
     }
 
     private Triangle createTriangle() {
+
         Scanner scanner = new Scanner(System.in);
         System.out.print("Input length of side A: ");
         Double sideA = scanner.nextDouble();
         System.out.print("Input length of side B: ");
         Double sideB = scanner.nextDouble();
+        if(sideA < 1 || sideB < 1){
+            throw new IllegalArgumentException("Only positive numbers");
+        }
         return new Triangle(sideA, sideB);
     }
 
@@ -55,6 +62,9 @@ public class UserInput {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Input length of the radius: ");
         Double radius = scanner.nextDouble();
+        if(radius < 1){
+            throw new IllegalArgumentException("Only positive numbers");
+        }
         return new Circle(radius);
     }
 }

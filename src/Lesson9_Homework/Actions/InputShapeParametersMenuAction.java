@@ -33,6 +33,8 @@ public class InputShapeParametersMenuAction implements MenuAction{
             shapeService.save(shape);
         } catch (InputMismatchException e){
             System.err.println("Input valid shape arguments");
+        }catch (IllegalArgumentException ie){
+            System.err.println("Only positive numbers");
         }
 
     }

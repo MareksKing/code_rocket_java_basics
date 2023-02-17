@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b194727d-7d27-423a-89a0-d143135637f6" name="Changes" comment="Homework create shape, now add saving and the rest">
-      <change afterPath="$PROJECT_DIR$/src/Lesson9_Homework/Actions/SelectedShapeMenuAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson9_Homework/Tests/TestRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson9_Homework/Tests/ShapeValidationRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson9_Homework/Tests/ShapeValidationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson9_Homework/Actions/ChooseOneShapeMenuAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson9_Homework/Actions/ChooseOneShapeMenuAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson9_Homework/Shapes/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson9_Homework/Shapes/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson9_Homework/Shapes/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson9_Homework/Shapes/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson9_Homework/Shapes/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson9_Homework/Shapes/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson9_Homework/ShapesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson9_Homework/ShapesDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson9_Homework/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson9_Homework/Actions/InputShapeParametersMenuAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson9_Homework/Actions/InputShapeParametersMenuAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson9_Homework/Tests/TestRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson9_Homework/Tests/TestRun.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson9_Homework/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson9_Homework/UserInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson9_Homework/UserMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson9_Homework/UserMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
